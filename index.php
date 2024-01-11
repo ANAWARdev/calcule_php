@@ -9,8 +9,9 @@
 
 <body>
     <form action="afficheResultat.php" method="GET">
-        <input type="number" name="annee">
-        <input type="number" name="annee_age">
+        <!--step est utilisé dans le cas ou on avance par la valeur de step-->
+        <input type="number" name="annee" step="0.01">
+        <input type="number" name="annee_age" step="0.01">
         <input type="submit" value="Calcules">
     </form>
 </body>

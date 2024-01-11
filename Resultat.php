@@ -1,3 +1,8 @@
+<?php 
+$ageSup= $_GET['ageSup'];
+$ageMin = $_GET['ageMin']; 
+$somme = 0;
+?>
 <!DOCTYPE html>
 <html lang="en">
 
@@ -9,7 +14,7 @@
 
 <body>
 
-
+    <?php echo  $somme = $ageSup + $ageMin ;?>
 
 </body>
 
